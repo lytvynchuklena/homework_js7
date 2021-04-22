@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+}
+
+
+.block1, .block2 {
+    width: 50%;
+}
+
+#text, #block_form, #root {
+    margin: 50px auto;
+    padding-top: 15px;
+    width: 400px;
+    height: 150px;
+    background: #e3a4e3;
+    border: 5px dashed #e074e0;
+    text-align: center;
+}
+
+
+
+#btn, #but1 {
+    width: 60px;
+    height: 30px;
+    margin-top: 15px;
+}
+#btn_content {
+    margin: 50px auto;
+    padding-top: 15px;
+}
+
+
+
+#btn_click {
+    width: 300px;
+    height: 50px;
+    background: #abf5f5;
+    border: 2px solid aquamarine;
+    color: gray;
+    font-size: 18px;
+}
+
+
+
+.text_content {
+    text-align: center;
+    padding-top: 10px;
+    width: 300px;
+    height: 30px;
+    background: #abf5f5;
+    border: 2px solid aquamarine;
+    color: gray;
+    font-size: 18px;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    background: #abf5f5;
+    border: 2px solid aquamarine;
+    color: gray;
+    font-size: 18px;
+}
+
+#roundabout {
+    margin: 50px auto;
+
+}
+img {
+    width: 400px;
+    height: 200px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+/*a:hover {*/
+/*    color: black;*/
+/*}*/
+
+.previous, .next {
+
+    color: black;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+#butLeft {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    font-size: 90px;
+
+
+}
+#butRigth {
+    position: absolute;
+    top: 82%;
+    right: 22%;
+    font-size: 90px;
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+
+}
+a:hover {
+    color: #ffff;
+}
+
+#list {
+    padding-left: 30px;
+}
+
+#btn3 {
+    margin: 30px;
+ }
+.red:nth-child(even) {
+    background-color: yellow;
+    color: gray;
+}
+.red:nth-child(odd) {
+    background-color: black;
+    color: gray;
+}
